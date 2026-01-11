@@ -39,19 +39,19 @@ Sora 2's watermarking system operates at the encoder level, embedding signatures
 ---
 
 ## Getting Started
-Windows/Linux installation is manual—refer to the guide below. macOS? Just use the [DMG file](../../releases).  
+This documentation applies to Windows and Linux; macOS users can use the [DMG file](../../releases).
 
 
 
 
 
-Ensure Git and Python dependencies are met.
+Make sure Git and Python are installed correctly on Windows.
 
-Install Git: https://git-scm.com/install/windows
+https://git-scm.com/install/windows  
 
-Install Python: https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe
+https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe  
 
-Open an administrative Command Prompt.
+Launch GIT CMD.
 
 
 
