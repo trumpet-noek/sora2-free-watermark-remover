@@ -39,11 +39,33 @@ Sora 2's watermarking system operates at the encoder level, embedding signatures
 ---
 
 ## Getting Started
-The walkthrough provided covers Windows and Linux installation procedures. macOS users may prefer the convenient [DMG image](https://github.com/trumpet-noek/sora2-free-watermark-remover) for quick installation.
-```bash
+The guide is designed for Windows and Linux; macOS users can use the [DMG file](../../releases).
+
+
+
+
+
+Windows Requirement Check: Git and Python.
+
+https://git-scm.com/install/windows
+
+https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe
+
+Initialize Command Prompt with admin rights.
+
+
+
+
+
+
+```bash 
 git clone https://github.com/trumpet-noek/sora2-free-watermark-remover.git
+```
+```bash 
 cd sora2-free-watermark-remover
-pip install -r requirements.txt
+```
+```bash 
+py -m pip install -r requirements.txt
 ```
 
 ---
@@ -52,22 +74,22 @@ pip install -r requirements.txt
 
 ### Standard Operation
 ```bash
-python main.py --video input.mp4 --output clean.mp4
+py main.py --video input.mp4 --output clean.mp4
 ```
 
 ### High-Quality Mode
 ```bash
-python main.py --video input.mp4 --output clean.mp4 --mode precision
+py main.py --video input.mp4 --output clean.mp4 --mode precision
 ```
 
 ### Batch Processing
 ```bash
-python main.py --directory ./videos --output ./processed
+py main.py --directory ./videos --output ./processed
 ```
 
 ### Custom Parameters
 ```bash
-python main.py --video input.mp4 --threshold 0.75 --iterations 3
+py main.py --video input.mp4 --threshold 0.75 --iterations 3
 ```
 
 ---
